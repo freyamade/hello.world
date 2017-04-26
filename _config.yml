@@ -23,7 +23,8 @@ twitter_username: crnbrdrck
 github_username:  crnbrdrck
 
 collections:
-  - programs
+  programs:
+    output: true
     
 defaults:
   - scope:
