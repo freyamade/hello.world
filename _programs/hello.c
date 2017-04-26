@@ -1,3 +1,7 @@
+---
+author: crnbrdrck
+---
+
 #include <stdio.h>
 
 int main(){
