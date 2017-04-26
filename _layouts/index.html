@@ -84,8 +84,8 @@
             
             <div class="row">
                 {% assign code_files = site.static_files | where: "code", true %}
-                {% for program in code_files %}
-                    {{ program.name }}
+                {% for program in site.static_files %}
+                    {{ program.name }} {{ program.code }}<hr />
                 {% endfor %}
             </div>
 
