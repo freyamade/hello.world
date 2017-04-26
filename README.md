@@ -5,7 +5,7 @@ An open source, crowd assisted website to document every version of the `Hello, 
 ## Contribution Guide
 If you wish to contribute, simply fork the repo, add a `.md` file to the \_programs directory according to the template, and send a pull request.
 
-You can also add your name and the language you wrote to the CONTRIBUTION.md file, which will be displayed in the Contributions page of the website
+You can also add your name and the language you wrote to the CONTRIBUTION.md file, which will be displayed in the Contributions page of the website, along with this Guide
 
 **Please note that only one language per user will be accepted, to help get as many people involved as possible**
 
