@@ -84,7 +84,7 @@
             
             <div class="row">
                 {% for program in site.programs %}
-                    {{ program.path }}<br />{{ program.output}}<br />{{ program.author }}<br />{{ program.url }}
+                    {{ program.path }}<br />{{ program.output}}<br />{{ program.author }}<br />{{ program.url|remove:"/" }}
                 {% endfor %}
             </div>
 
