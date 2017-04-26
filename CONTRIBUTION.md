@@ -1,5 +1,9 @@
 ---
-layout: page
-title: Contribution Guide
+layout: contrib
+title: Contributions
 permalink: /contrib/
 ---
+
+|    Author    | Language |
+|:------------:|:--------:|
+|  crnbrdrck   |   Java   |
