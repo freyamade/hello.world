@@ -25,13 +25,7 @@ github_username:  crnbrdrck
 collections:
   programs:
     output: true
-    
-defaults:
-  - scope:
-      path: ""
-      type: programs
-    values:
-      code: true
+    permalink: /:name
 
 # Build settings
 markdown: kramdown
