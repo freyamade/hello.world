@@ -1,6 +1,8 @@
 ---
 author: crnbrdrck
+lang: c++
 ---
+
 ```cpp
 #include <iostream.h>
 
