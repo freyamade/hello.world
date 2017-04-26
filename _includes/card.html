@@ -1,0 +1,17 @@
+{% capture lang_title %}{{ include.program.url|remove:"/" }}{% endcapture %}
+<!--Column-->
+<div class="col-lg-6">
+    <!--Card-->
+    <div class="card">
+        <div class="card-block">
+            <h4 class="card-title card-lang-{{ lang_title }}">{{ lang_title|upcase }}</h4>
+            {{ include.program.output }}
+            <div class="read-more">
+                <a href="https://github.com/{{ include.program.author }}" target="_blank" type="button" class="btn btn-default btn-block"><i class="fa fa-github left"></i> {{ include.program.author }}</button>
+            </div>
+        </div>
+        <!--/.Card content-->
+    </div>
+    <!--/.Card-->
+</div>
+<!--/.Column-->
