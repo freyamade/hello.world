@@ -21,16 +21,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://hello.exceptionalvoid.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: crnbrdrck
 github_username:  crnbrdrck
-
-# Collections
-collections:
-  programs:
-    permalink: /:collection/:path/
     
 defaults:
   - scope:
-      path: ""
-      type: programs
+      path: "programs/"
     values:
       code: true
 
