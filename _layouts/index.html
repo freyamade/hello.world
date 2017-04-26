@@ -81,13 +81,6 @@
     <main>
         <!--Main layout-->
         <div class="container">
-            
-            <div class="row">
-                {% for program in site.programs %}
-                    {{ program.path }}<br />{{ program.output}}<br />{{ program.author }}<br />{{ program.url|remove:"/" }}
-                {% endfor %}
-            </div>
-
             <!--Page heading-->
             <div class="row wow fadeIn" data-wow-delay="0.2s">
                 <div class="col-md-12">
@@ -101,123 +94,9 @@
 
             <!--First row-->
             <div class="row wow fadeIn" data-wow-delay="0.2s">
-                <!--First column-->
-                <div class="col-lg-6">
-                    <!--Card-->
-                    <div class="card">
-
-                        <!--Card image-->
-                        <div class="card-block">
-                            <h4 class="card-title card-lang-c">C</h4>
-
-                            {% highlight c %}
-#include <stdio.h>
-
-int main(){
-    printf("Hello, World");
-    return 0;
-}
-                            {% endhighlight %}
-                            <!--Title-->
-                            <!--Text-->
-                            <div class="read-more">
-                                <button type="button" class="btn btn-default btn-block"><i class="fa fa-github left"></i> crnbrdrck</button>
-                            </div>
-                        </div>
-                        <!--/.Card content-->
-
-                    </div>
-                    <!--/.Card-->
-                </div>
-                <!--/.First column-->
-
-                <!--First column-->
-                <div class="col-lg-6">
-                    <!--Card-->
-                    <div class="card">
-
-                        <!--Card image-->
-                        <div class="card-block">
-                            <h4 class="card-title card-lang-cpp">C++</h4>
-
-                            {% highlight cpp %}
-#include <iostream.h>
-
-int main(){
-    cout << "Hello, World";
-    return 0;
-}
-                            {% endhighlight %}
-                            <!--Title-->
-                            <!--Text-->
-                            <div class="read-more">
-                                <button type="button" class="btn btn-default btn-block"><i class="fa fa-github left"></i> crnbrdrck</button>
-                            </div>
-                        </div>
-                        <!--/.Card content-->
-
-                    </div>
-                    <!--/.Card-->
-                </div>
-            </div>
-            <!--/.First row-->
-
-            <!--First row-->
-            <div class="row wow fadeIn" data-wow-delay="0.2s">
-                <!--First column-->
-                <div class="col-lg-6">
-                    <!--Card-->
-                    <div class="card">
-
-                        <!--Card image-->
-                        <div class="card-block">
-                            <h4 class="card-title card-lang-csharp">C#</h4>
-
-                            {% highlight csharp %}
-namespace Hello.World{
-    class Hello{
-        void main(){
-            Console.WriteLine("Hello, World");
-        }
-    }
-}
-                            {% endhighlight %}
-                            <!--Title-->
-                            <!--Text-->
-                            <div class="read-more">
-                                <button type="button" class="btn btn-default btn-block"><i class="fa fa-github left"></i> crnbrdrck</button>
-                            </div>
-                        </div>
-                        <!--/.Card content-->
-
-                    </div>
-                    <!--/.Card-->
-                </div>
-                <!--/.First column-->
-
-                <!--First column-->
-                <div class="col-lg-6">
-                    <!--Card-->
-                    <div class="card">
-
-                        <!--Card image-->
-                        <div class="card-block">
-                            <h4 class="card-title card-lang-python">Python</h4>
-
-                            {% highlight python %}
-print("Hello, World")
-                            {% endhighlight %}
-                            <!--Title-->
-                            <!--Text-->
-                            <div class="read-more">
-                                <button type="button" class="btn btn-default btn-block"><i class="fa fa-github left"></i> crnbrdrck</button>
-                            </div>
-                        </div>
-                        <!--/.Card content-->
-
-                    </div>
-                    <!--/.Card-->
-                </div>
+                {% for program in site.programs %}
+                    {% include "card.html" program=program %}
+                {% endfor %}
             </div>
             <!--/.First row-->
 
