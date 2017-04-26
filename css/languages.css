@@ -1,58 +1,58 @@
-.card-lang-actionscript{ color: #882B0F; }
-.card-lang-apiblueprint{ color: #2ACCA8; }
-.card-lang-applescript{ color: #101F1F; }
-.card-lang-c{ color: #555555; }
-.card-lang-clojure{ color: #db5855; }
-.card-lang-coffeescript{ color: #244776; }
-.card-lang-common-lisp{ color: #3fb68b; }
-.card-lang-c\+\+{ color: #f34b7d; }
-.card-lang-c\#{ color: #178600; }
-.card-lang-css{ color: #563d7c; }
-.card-lang-d{ color: #ba595e; }
-.card-lang-dart{ color: #00B4AB; }
-.card-lang-eiffel{ color: #946d57; }
-.card-lang-elixir{ color: #6e4a7e; }
-.card-lang-erlang{ color: #B83998; }
-.card-lang-factor{ color: #636746; }
-.card-lang-fortran{ color: #4d41b1; }
-.card-lang-go{ color: #375eab; }
-.card-lang-groovy{ color: #e69f56; }
-.card-lang-haml{ color: #ECE2A9; }
-.card-lang-handlebars{ color: #01a9d6; }
-.card-lang-haskell{ color: #29b544; }
-.card-lang-html{ color: #e44b23; }
-.card-lang-io{ color: #a9188d; }
-.card-lang-java{ color: #b07219; }
-.card-lang-javascript{ color: #f1e05a; }
-.card-lang-julia{ color: #a270b; }
-.card-lang-kotlin{ color: #F18E33; }
-.card-lang-llvm{ color: #185619; }
-.card-lang-lua{ color: #000080; }
-.card-lang-make{ color: #427819; }
-.card-lang-matlab{ color: #bb92ac; }
-.card-lang-nim{ color: #37775b; }
-.card-lang-objectivec{ color: #438eff; }
-.card-lang-ocaml{ color: #3be133; }
-.card-lang-pascal{ color: #E3F171; }
-.card-lang-perl{ color: #0298c3; }
-.card-lang-php{ color: #4F5D95; }
-.card-lang-prolog{ color: #74283c; }
-.card-lang-puppet{ color: #302B6D; }
-.card-lang-python-2{ color: #3572A5; }
-.card-lang-python-3{ color: #3572A5; }
-.card-lang-qml{ color: #44a51c; }
-.card-lang-r{ color: #198CE7; }
-.card-lang-racket{ color: #22228f; }
-.card-lang-ruby{ color: #701516; }
-.card-lang-sass{ color: #CF649A; }
-.card-lang.scala{ color: #c22d40; }
-.card-lang-scheme{ color: #1e4aec; }
-.card-lang-scss{ color: #CF649A; }
-.card-lang-shell{ color: #89e051; }
-.card-lang-slim{ color: #ff8f77; }
-.card-lang-smalltalk{ color: #596706; }
-.card-lang-swift{ color: #ffac45; }
-.card-lang-tcl{ color: #e4cc98; }
-.card-lang-tex{ color: #3D6117; }
-.card-lang-typescript{ color: #2b7489; }
-.card-lang-vb{ color: #945db7; }
+.card-lang-actionscript .card-title{ color: #882B0F; }
+.card-lang-apiblueprint .card-title{ color: #2ACCA8; }
+.card-lang-applescript .card-title{ color: #101F1F; }
+.card-lang-c .card-title{ color: #555555; }
+.card-lang-clojure .card-title{ color: #db5855; }
+.card-lang-coffeescript .card-title{ color: #244776; }
+.card-lang-common-lisp .card-title{ color: #3fb68b; }
+.card-lang-c\+\+ .card-title{ color: #f34b7d; }
+.card-lang-c\# .card-title{ color: #178600; }
+.card-lang-css .card-title{ color: #563d7c; }
+.card-lang-d .card-title{ color: #ba595e; }
+.card-lang-dart .card-title{ color: #00B4AB; }
+.card-lang-eiffel .card-title{ color: #946d57; }
+.card-lang-elixir .card-title{ color: #6e4a7e; }
+.card-lang-erlang .card-title{ color: #B83998; }
+.card-lang-factor .card-title{ color: #636746; }
+.card-lang-fortran .card-title{ color: #4d41b1; }
+.card-lang-go .card-title{ color: #375eab; }
+.card-lang-groovy .card-title{ color: #e69f56; }
+.card-lang-haml .card-title{ color: #ECE2A9; }
+.card-lang-handlebars .card-title{ color: #01a9d6; }
+.card-lang-haskell .card-title{ color: #29b544; }
+.card-lang-html .card-title{ color: #e44b23; }
+.card-lang-io .card-title{ color: #a9188d; }
+.card-lang-java .card-title{ color: #b07219; }
+.card-lang-javascript .card-title{ color: #f1e05a; }
+.card-lang-julia .card-title{ color: #a270ba; }
+.card-lang-kotlin .card-title{ color: #F18E33; }
+.card-lang-llvm .card-title{ color: #185619; }
+.card-lang-lua .card-title{ color: #000080; }
+.card-lang-make .card-title{ color: #427819; }
+.card-lang-matlab .card-title{ color: #bb92ac; }
+.card-lang-nim .card-title{ color: #37775b; }
+.card-lang-objectivec .card-title{ color: #438eff; }
+.card-lang-ocaml .card-title{ color: #3be133; }
+.card-lang-pascal .card-title{ color: #E3F171; }
+.card-lang-perl .card-title{ color: #0298c3; }
+.card-lang-php .card-title{ color: #4F5D95; }
+.card-lang-prolog .card-title{ color: #74283c; }
+.card-lang-puppet .card-title{ color: #302B6D; }
+.card-lang-python-2 .card-title{ color: #3572A5; }
+.card-lang-python-3 .card-title{ color: #3572A5; }
+.card-lang-qml .card-title{ color: #44a51c; }
+.card-lang-r .card-title{ color: #198CE7; }
+.card-lang-racket .card-title{ color: #22228f; }
+.card-lang-ruby .card-title{ color: #701516; }
+.card-lang-sass .card-title{ color: #CF649A; }
+.card-lang.scala .card-title{ color: #c22d40; }
+.card-lang-scheme .card-title{ color: #1e4aec; }
+.card-lang-scss .card-title{ color: #CF649A; }
+.card-lang-shell .card-title{ color: #89e051; }
+.card-lang-slim .card-title{ color: #ff8f77; }
+.card-lang-smalltalk .card-title{ color: #596706; }
+.card-lang-swift .card-title{ color: #ffac45; }
+.card-lang-tcl .card-title{ color: #e4cc98; }
+.card-lang-tex .card-title{ color: #3D6117; }
+.card-lang-typescript .card-title{ color: #2b7489; }
+.card-lang-vb .card-title{ color: #945db7; }
