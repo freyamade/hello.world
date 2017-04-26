@@ -22,6 +22,12 @@ url: "http://hello.exceptionalvoid.com" # the base hostname & protocol for your 
 twitter_username: crnbrdrck
 github_username:  crnbrdrck
 
+# Collections
+collections:
+  programs:
+    output: true
+    permalink: /:collection/:path/
+
 # Build settings
 markdown: kramdown
 theme: minima
