@@ -82,7 +82,12 @@
         <!--Main layout-->
         <div class="container">
             
-            <div class="row">{{ site.static_files }}</div>
+            <div class="row">
+                {% assign code_files = site.static_files | where: "code", true %}
+                {% for program in code_files %}
+                    {{ program.path }}
+                {% endfor %}
+            </div>
 
             <!--Page heading-->
             <div class="row wow fadeIn" data-wow-delay="0.2s">
