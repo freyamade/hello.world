@@ -1,6 +1,8 @@
 ---
 author: crnbrdrck
+lang: c
 ---
+
 ```c
 #include <stdio.h>
 
