@@ -83,8 +83,8 @@
         <div class="container">
             
             <div class="row">
-                {% for program in site.collections %}
-                    {{ program.label }}<br />
+                {% for program in site.programs.docs %}
+                    {{ program.path }}<br />
                 {% endfor %}
             </div>
 
