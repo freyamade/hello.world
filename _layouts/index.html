@@ -131,14 +131,16 @@
         // Searching
         var lastSearch = "";
         var searchBox = $('#search');
+        console.log(searchBox);
         searchBox.keyup(function(e){
             var search = searchBox.val();
+            console.log(search);
             if(search !== lastSearch){
                 // Hide all the cards and make all cards beginning with the search term visible
                 $('[class^=card-lang]').each(function(i, elmnt){
                     $(elmnt).css("display", "none");
                 });
-                $('[class^=card-lang' + search + ']').each(function(i, elmnt){
+                $('[class^=card-lang-' + search + ']').each(function(i, elmnt){
                     $(elmnt).css("display", "block");
                 });
             }
