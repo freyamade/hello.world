@@ -25,7 +25,6 @@ github_username:  crnbrdrck
 # Collections
 collections:
   programs:
-    output: true
     permalink: /:collection/:path/
     
 defaults:
