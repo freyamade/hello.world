@@ -5,6 +5,6 @@ permalink: /contrib/
 ---
 
 {:.table .table-striped .table-bordered}
-{:.thead-inverse}|    Author    | Language |
+|    Author    | Language | {:.thead-inverse}
 |:------------:|:--------:|
 |  crnbrdrck   |   Java   |
