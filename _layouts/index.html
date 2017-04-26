@@ -1,80 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-
-    <title>{{ site.title }}</title>
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Material Design Bootstrap -->
-    <link href="css/mdb.min.css" rel="stylesheet">
-    
-    <link href="css/style.css" rel="stylesheet">
-
-    <!-- Code Highlighting -->
-    <link rel="stylesheet" href="css/highlight.css" />
-    <link rel="stylesheet" href="css/languages.css" />
-
-    <!-- Template styles -->
-    <style rel="stylesheet">
-        /* TEMPLATE STYLES */
-        
-        main {
-            margin-top: 3rem;
-            ;
-        }
-         
-        main .card {
-            margin-bottom: 2rem;
-        }
-        
-        @media only screen and (max-width: 768px) {
-            .read-more {
-                text-align: center;
-
-        }
-    </style>
-</head>
+{% include head.html %}
 
 <body>
 
     <header>
         <!--Navbar-->
-        <nav class="navbar navbar-toggleable-md navbar-light">
-            <div class="container">
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="navbar-brand waves-effect waves-light" href="#">
-                    <strong>{{ site.title }}</strong>
-                </a>
-                <div class="collapse navbar-collapse" id="navbarNav1">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item waves-effect waves-light">
-                            <a class="nav-link" href="/contrib/">Contribution Guide</a>
-                        </li>
-                        <li class="nav-item waves-effect waves-light">
-                            <a class="nav-link" href="/about/">About</a>
-                        </li>
-                    </ul>
-                    <form class="form-inline waves-effect waves-light">
-                        <input id="search" class="form-control" type="text" placeholder="Search">
-                    </form>
-                </div>
-            </div>
-        </nav>
+        {% include navbar.html %}
         <!--/.Navbar-->
     </header>
 
@@ -105,20 +38,7 @@
     </main>
     <!-- SCRIPTS -->
 
-    <!-- JQuery -->
-    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
-
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="js/tether.min.js"></script>
-
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="js/mdb.min.js"></script>
-
-    <!-- Match height -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js"></script>
+    {% include scripts.html %}
     
     <script>
     new WOW().init();
