@@ -69,9 +69,9 @@
                             <a class="nav-link" href="/about/">About</a>
                         </li>
                     </ul>
-                    <!-- <form class="form-inline waves-effect waves-light">
-                        <input class="form-control" type="text" placeholder="Search">
-                    </form> -->
+                    <form class="form-inline waves-effect waves-light">
+                        <input id="search" class="form-control" type="text" placeholder="Search">
+                    </form>
                 </div>
             </div>
         </nav>
@@ -102,19 +102,6 @@
         </div>
         <!--/.Main layout-->
     </main>
-
-    <!--Footer-->
-    <footer class="page-footer center-on-small-only">
-        <!--Copyright-->
-        <div class="footer-copyright">
-            <div class="containter-fluid">
-                © {{ site.time | date:"%Y" }} Copyright: <a href="https://www.exceptionalvoid.com/ciaran"> Ciaran Broderick </a>
-            </div>
-        </div>
-        <!--/.Copyright-->
-    </footer>
-    <!--/.Footer-->
-
     <!-- SCRIPTS -->
 
     <!-- JQuery -->
@@ -139,7 +126,24 @@
         $('.highlight').matchHeight();
         $(window).resize(function(){
             $('.highlight').matchHeight();
-        })
+        });
+        
+        // Searching
+        var lastSearch = "";
+        var searchBox = $('#search');
+        searchBox.keyup(function(e){
+            var search = searchBox.val();
+            if(search !== lastSearch){
+                // Hide all the cards and make all cards beginning with the search term visible
+                $('[class^=card-lang]').each(function(i, elmnt){
+                    $(elmnt).css("display", "none");
+                });
+                $('[class^=card-lang' + search + ']').each(function(i, elmnt){
+                    $(elmnt).css("display", "block");
+                });
+            }
+            lastSearch = search;
+        });
     })
     </script>
     
