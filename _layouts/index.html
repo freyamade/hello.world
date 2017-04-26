@@ -83,9 +83,8 @@
         <div class="container">
             
             <div class="row">
-                {% assign code_files = site.static_files | where: "code", true %}
-                {% for program in site.static_files %}
-                    {{ program.name }} {{ program.data }}<br />
+                {% for program in site.collections %}
+                    {{ program.label }}<br />
                 {% endfor %}
             </div>
 
