@@ -94,8 +94,7 @@
 
             <!--First row-->
             <div class="row wow fadeIn" data-wow-delay="0.2s">
-                {% assign programs = (site.pages | sort: 'lang') %}
-                {% for program in programs %}
+                {% for program in site.programs %}
                     {% include card.html program=program %}
                 {% endfor %}
             </div>
