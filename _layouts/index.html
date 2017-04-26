@@ -53,7 +53,7 @@
         var lastSearch = "";
         var searchBox = $('#search');
         searchBox.keyup(function(e){
-            var search = searchBox.val();
+            var search = searchBox.val().toLowerCase();
             if(search !== lastSearch){
                 // Hide all the cards and make all cards beginning with the search term visible
                 $('[class*="card-lang"]').each(function(i, elmnt){
