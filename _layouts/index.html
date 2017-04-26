@@ -137,10 +137,14 @@
             console.log(search);
             if(search !== lastSearch){
                 // Hide all the cards and make all cards beginning with the search term visible
+                console.log("hiding");
                 $('[class^=card-lang]').each(function(i, elmnt){
+                    console.log(elmnt);
                     $(elmnt).css("display", "none");
                 });
+                console.log("showing");
                 $('[class^=card-lang-' + search + ']').each(function(i, elmnt){
+                    console.log(elmnt);
                     $(elmnt).css("display", "block");
                 });
             }
