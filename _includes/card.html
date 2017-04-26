@@ -1,9 +1,9 @@
 <!--Column-->
-<div class="col-lg-6">
+<div class="col-lg-6 card-lang-{{ include.program.lang|replace:" ", "-" }}">
     <!--Card-->
     <div class="card">
         <div class="card-block">
-            <h4 class="card-title card-lang-{{ include.program.lang|replace:" ", "-" }}">{{ include.program.lang|capitalize }}</h4>
+            <h4 class="card-title">{{ include.program.lang|capitalize }}</h4>
             {{ include.program.output }}
             <div class="read-more">
                 <a href="https://github.com/{{ include.program.author }}" target="_blank" type="button" class="btn btn-default btn-block"><i class="fa fa-github left"></i> {{ include.program.author }}</a>
