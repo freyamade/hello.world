@@ -7,5 +7,5 @@ permalink: /contrib/
 | Language |    Author    |
 |:--------:|:------------:|
 |   Java   |   crnbrdrck  |
-| Javacript|    ivanyoo   |
+|Javascript|    ivanyoo   |
 
