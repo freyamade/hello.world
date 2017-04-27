@@ -1,5 +1,5 @@
 ---
-author: heo24
+author: hero24
 lang: c
 ---
 
