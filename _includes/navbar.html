@@ -18,9 +18,11 @@
                     <a class="nav-link" href="/about/">About{% if page.url == '/' %} <span class="sr-only">(current)</span>{% endif %}</a>
                 </li>
             </ul>
+            {% if page.url == "/" %}
             <form class="form-inline waves-effect waves-light">
                 <input id="search" class="form-control" type="text" placeholder="Search">
             </form>
+            {% endif %}
         </div>
     </div>
 </nav>
