@@ -20,11 +20,18 @@
                     <hr />
                     <div class="row">
                         <div class="col-xs-12">
-                            <div class="card">
+                            <div class="panel">
+                                <h3 class="card-header danger-color-dark white-text"><i class="fa fa-exclamation"></i> 
+                                    Please contribute only one language per person.
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="panel">
                                 <h3 class="card-header default-color-dark white-text"><i class="fa fa-code-fork"></i>  How to Contribute</h3>
                                 <div class="card-block">
                                     <p class="card-text">
-                                        Contributing is easy! Simple fork the repo on GitHub, take the template file below and insert the code and other values. Save it in the _programs folder as LANGUAGE.md and send a pull request.
+                                        Contributing is easy! Simple fork the repo on GitHub, take the template file below and insert the code and other values. Save it in the _programs folder as LANGUAGE.md, add your name and language to CONTRIBUTION.md and send a pull request.
                                     </p>
                                     <a href="https://github.com/crnbrdrck/hello.world" target="_blank" class="btn btn-outline-primary waves-effect btn-block"><i class="fa fa-github"></i> Repo</a>
                                 </div>
@@ -34,13 +41,13 @@
 
                     <div class="row">
                         <div class="col-xs-12">
-                            <div class="card">
+                            <div class="panel">
                                 <h3 class="card-header primary-color-dark white-text"><i class="fa fa-file-text-o"></i>  Contribution Example</h3>
                                 <div class="card-block">
                                     <p class="card-text">
-                                        Below is the file that is used to generate my java snippet on the home page. Copy this and replace java with whatever language you're using.
-                                        <pre>{% include_relative _programs/java.md %}</pre>
+                                        Below is the file that is used to generate my java snippet on the home page. Copy this and replace java with whatever language you're using.                                       
                                     </p>
+                                    <pre>{% include_relative _programs/java.md %}</pre>
                                 </div>
                             </div>
                         </div>
@@ -49,7 +56,16 @@
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.2s">
                     <h1 class="h1-responsive">Current Contributors</h1>
                     <hr/>
-                    {{ content }}
+                    <div class="col-xs-12">
+                        <div class="panel">
+                            <h3 class="card-header info-color-dark white-text"><i class="fa fa-question"></i> 
+                                To help out more, why not tell a friend about the project?
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        {{ content }}
+                    </div>
                 </div>
             </div>
         </div>

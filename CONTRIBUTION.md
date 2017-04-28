@@ -8,4 +8,5 @@ permalink: /contrib/
 |:--------:|:------------:|
 |   Java   |   crnbrdrck  |
 |Javascript|    ivanyoo   |
-
+|   Ruby   |  murkymartin |
+|    io    |    hero24    |

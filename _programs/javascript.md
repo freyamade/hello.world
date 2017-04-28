@@ -4,5 +4,5 @@ lang: javascript
 ---
 
 ```javascript
-	alert('Hello, World');
+alert('Hello, World');
 ```
