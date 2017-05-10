@@ -6,7 +6,7 @@ lang: HTML
 ```HTML
 <html>
   <body>
-    Hello world
+    Hello World
   </body>
 </html>
 ```
