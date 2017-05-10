@@ -12,3 +12,4 @@ permalink: /contrib/
 |    io    |    hero24    |
 |Brainfuck |    Gelo147   |
 |   bash   |DylanSheehy12 |
+|  CSharp  |   ThaySilva  |
