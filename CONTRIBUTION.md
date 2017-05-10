@@ -11,3 +11,4 @@ permalink: /contrib/
 |   Ruby   |  murkymartin |
 |    io    |    hero24    |
 |Brainfuck |    Gelo147   |
+|   bash   |DylanSheehy12 |
