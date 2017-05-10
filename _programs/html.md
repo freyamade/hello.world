@@ -4,5 +4,9 @@ lang: HTML
 ---
 
 ```HTML
-Hello World 
+<html>
+  <body>
+    Hello world
+  </body>
+</html>
 ```
