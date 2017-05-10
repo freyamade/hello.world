@@ -4,7 +4,7 @@ lang: csharp
 ---
 
 ```csharp
-using system;
+using System;
 namespace HelloWorld{
    class Hello{
     public static void main(String[] args){
