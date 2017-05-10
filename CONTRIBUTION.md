@@ -13,3 +13,4 @@ permalink: /contrib/
 |Brainfuck |    Gelo147   |
 |   bash   |DylanSheehy12 |
 |  CSharp  |   ThaySilva  |
+|  C++     |   gracemc93  |
