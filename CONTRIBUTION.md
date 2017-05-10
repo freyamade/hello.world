@@ -15,3 +15,4 @@ permalink: /contrib/
 |  CSharp  |   ThaySilva  |
 |  C++     |   gracemc93  |
 | Python3  |  Quarkiness  |
+|   HTML   |     DW93     |
