@@ -3,7 +3,7 @@
 An open source, crowd assisted website to document every version of the `Hello, World` program.
 
 ## Contribution Guide
-If you wish to contribute, simply fork the repo, add a `.md` file to the \_programs directory according to the template, and send a pull request.
+If you wish to contribute, simply add a `.md` file to the \_programs directory according to the template
 
 You can also add your name and the language you wrote to the CONTRIBUTION.md file, which will be displayed in the Contributions page of the website, along with this Guide
 
