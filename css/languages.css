@@ -7,7 +7,7 @@
 .card-lang-coffeescript .card-title{ color: #244776; }
 .card-lang-common-lisp .card-title{ color: #3fb68b; }
 .card-lang-c\+\+ .card-title{ color: #f34b7d; }
-.card-lang-c\# .card-title{ color: #178600; }
+.card-lang-c\# .card-title, .card-lang-csharp .card-title{ color: #178600; }
 .card-lang-css .card-title{ color: #563d7c; }
 .card-lang-d .card-title{ color: #ba595e; }
 .card-lang-dart .card-title{ color: #00B4AB; }
